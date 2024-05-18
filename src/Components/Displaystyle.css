@@ -1,0 +1,20 @@
+.Display-screen {
+  background-color: teal;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.result {
+  flex: 1;
+  font-size: 40px;
+  padding: 20px 10px 10px 10px;
+  text-align: center;
+}
+.values-to-equate {
+  flex: 1;
+  padding: 10px;
+  font-size: 20px;
+}
