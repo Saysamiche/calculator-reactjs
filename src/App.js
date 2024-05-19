@@ -52,19 +52,19 @@ const App = () => {
               color={specialColorClear}
               handleClick={addToText}
             />
-            <Calculator
+            {/* <Calculator
               symbol="+"
               color={specialColor}
               handleClick={addToText}
-            />
+            /> */}
           </div>
 
           <div className="row-columns">
-            <Calculator symbol="1" handleClick={addToText} />
-            <Calculator symbol="2" handleClick={addToText} />
-            <Calculator symbol="3" handleClick={addToText} />
+            <Calculator symbol="7" handleClick={addToText} />
+            <Calculator symbol="8" handleClick={addToText} />
+            <Calculator symbol="9" handleClick={addToText} />
             <Calculator
-              symbol="-"
+              symbol="*"
               color={specialColor}
               handleClick={addToText}
             />
@@ -82,11 +82,22 @@ const App = () => {
           </div>
 
           <div className="row-columns">
-            <Calculator symbol="7" handleClick={addToText} />
-            <Calculator symbol="8" handleClick={addToText} />
-            <Calculator symbol="9" handleClick={addToText} />
+            <Calculator symbol="1" handleClick={addToText} />
+            <Calculator symbol="2" handleClick={addToText} />
+            <Calculator symbol="3" handleClick={addToText} />
             <Calculator
-              symbol="*"
+              symbol="-"
+              color={specialColor}
+              handleClick={addToText}
+            />
+          </div>
+
+          <div className="row-columns">
+            <Calculator symbol="(" handleClick={addToText} />
+            <Calculator symbol=")" handleClick={addToText} />
+            <Calculator symbol="^" handleClick={addToText} />
+            <Calculator
+              symbol="+"
               color={specialColor}
               handleClick={addToText}
             />
