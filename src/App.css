@@ -1,6 +1,6 @@
 body {
-  font-size: 25px;
   background-color: rgb(77, 74, 74);
+  font-size: 25px;
 }
 
 .App {
@@ -10,8 +10,8 @@ body {
 }
 .calculator-body {
   width: 100%;
-  background-color: rgb(77, 74, 74);
   height: 100vmin;
+  background-color: rgb(77, 74, 74);
   display: flex;
   align-items: center;
   justify-content: center;
