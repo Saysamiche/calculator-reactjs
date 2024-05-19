@@ -1,6 +1,6 @@
 .Display-screen {
-  background-color: teal;
-  height: 120px;
+  background-color: black;
+  height: 140px;
   width: 100%;
   display: flex;
   justify-content: flex-end;
@@ -9,12 +9,14 @@
 }
 .result {
   flex: 1;
-  font-size: 40px;
+  font-size: 28px;
   padding: 20px 10px 10px 10px;
   text-align: center;
+  word-break: break-all;
 }
 .values-to-equate {
   flex: 1;
   padding: 10px;
-  font-size: 20px;
+  font-size: 18px;
+  word-break: break-all;
 }
