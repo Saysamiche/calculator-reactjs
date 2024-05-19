@@ -24,6 +24,7 @@ const App = () => {
   const calResult = () => {
     const display = text.join("");
     setResult(math.evaluate(display));
+    setText("");
     // setResult(eval(display))
   };
 
