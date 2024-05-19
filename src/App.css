@@ -1,6 +1,6 @@
 body {
-  background-color: rgb(77, 74, 74);
   font-size: 25px;
+  background-color: rgb(77, 74, 74);
 }
 
 .App {
@@ -19,9 +19,9 @@ body {
 
 .calculator-main {
   background-color: black;
+  color: white;
   width: 400px;
   border-radius: 16px;
-  color: white;
 }
 .row-columns {
   display: flex;
