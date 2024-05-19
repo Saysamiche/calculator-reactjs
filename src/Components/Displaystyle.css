@@ -10,9 +10,9 @@
 .result {
   flex: 1;
   font-size: 28px;
-  padding: 20px 10px 10px 10px;
-  text-align: center;
+  padding: 19px 10px 10px 10px;
   word-break: break-all;
+  text-align: center;
 }
 .values-to-equate {
   flex: 1;
