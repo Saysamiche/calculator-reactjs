@@ -8,6 +8,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .calculator-body {
   width: 100%;
   /* height: 100vh; */
@@ -25,4 +26,5 @@ body {
 }
 .row-columns {
   display: flex;
+  
 }
